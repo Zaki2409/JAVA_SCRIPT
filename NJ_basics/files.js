@@ -2,13 +2,13 @@ const fs = require('fs');
 
 // TO READ FILES 
 
-/*fs.readFile('./docs/blog1.txt',  ( err ,data) => {
+fs.readFile('D:\\JAVA_SCRIPT\\NJ_basics\\docs\\blog1.txt', ( err ,data) => {
     if (err) {
         console.log(err);
     }
     console.log(data.toString());
 });
-console.log('last line');*/
+console.log('last line');
 
 // to write the file
 
@@ -36,11 +36,11 @@ fs.rmdir('./zaki' , (err) => {
 
 // to delete 
 
-if(fs.existsSync('./docs/delete.txt')) {
+/*if(fs.existsSync('./docs/delete.txt')) {
     fs.unlink('./docs/delete.txt' , (err) =>{
         if (err) {
             console.log(err);
         }
         console.log("file deleted");
     })
-}
+}*/
